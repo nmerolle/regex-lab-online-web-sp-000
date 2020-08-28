@@ -11,7 +11,7 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-  text_arr = text.grep(/\b\w{5}\b/i)
+  text_arr = text.grep(/\b\w{5}\s/i)
   return text_arr
 end
 
